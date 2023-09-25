@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hbpm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0062-tenant/ci10t-786-0062-app/devfile-sample-hbpm@sha256:4c8ac00ca29dd77538e0e8c16ed2e7df1f94927a23b483b94c092584b01ddcb6
         name: my-nodejs
         ports:
         - containerPort: 3001
