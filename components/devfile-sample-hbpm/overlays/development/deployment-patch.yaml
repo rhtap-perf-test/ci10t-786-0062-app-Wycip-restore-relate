@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-hbpm
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0062-tenant/ci10t-786-0062-app/devfile-sample-hbpm@sha256:4c8ac00ca29dd77538e0e8c16ed2e7df1f94927a23b483b94c092584b01ddcb6
+        name: my-nodejs
+        resources: {}
+status: {}
